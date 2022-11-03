@@ -3,6 +3,15 @@
 version = 3
 
 [[package]]
+name = "device-info"
+version = "0.1.0"
+dependencies = [
+ "serde",
+ "serde_json",
+ "windows",
+]
+
+[[package]]
 name = "fileversion"
 version = "0.1.0"
 dependencies = [
